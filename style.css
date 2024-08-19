@@ -1,0 +1,16 @@
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#hero {
+  padding-bottom: 65px;
+}
+
+@media screen and (min-width: 768px) {
+  .magic-cards {
+    position: absolute;
+    bottom: -135px;
+    width: 100%;
+  }
+}
