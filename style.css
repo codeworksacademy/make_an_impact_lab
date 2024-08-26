@@ -3,12 +3,12 @@ nav a {
   color: white;
 }
 
-form{
+form {
   min-height: 100%;
 }
 
-textarea{
-  min-height: 280px !important;  
+textarea {
+  min-height: 280px !important;
 }
 
 .action-bg {
@@ -21,15 +21,19 @@ textarea{
   text-shadow: 1px 1px 3px black;
 }
 
-.portrait{
+.portrait {
   height: 100px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.bg-success-but-a-little-darker{
+.bg-success-but-a-little-darker {
   background-color: #116b41;
+}
+
+.contact {
+  height: 100%;
 }
 
 #team img {
