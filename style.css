@@ -3,6 +3,14 @@ nav a {
   color: white;
 }
 
+form{
+  min-height: 100%;
+}
+
+textarea{
+  min-height: 280px !important;  
+}
+
 .action-bg {
   background-image: url(https://images.unsplash.com/photo-1427694012323-fb5e8b0c165b?q=80&w=2378&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
@@ -11,6 +19,17 @@ nav a {
 
 .text-shadow {
   text-shadow: 1px 1px 3px black;
+}
+
+.portrait{
+  height: 100px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bg-success-but-a-little-darker{
+  background-color: #116b41;
 }
 
 #team img {

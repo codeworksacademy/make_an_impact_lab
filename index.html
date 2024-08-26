@@ -19,12 +19,12 @@
           <div class="p-5 d-flex justify-content-between align-items-center text-light">
             <p class="fs-1 fw-bold">Impact<span class="text-danger">.</span></p>
             <nav class="text-light d-none d-md-flex gap-3">
-              <a href="">Home</a>
-              <a href="">About</a>
-              <a href="">Services</a>
+              <a href="#hero">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
               <a href="">Portfolio</a>
-              <a href="">Team</a>
-              <a href="">Blog</a>
+              <a href="#team">Team</a>
+              <a href="#blog">Blog</a>
               <a href="">Dropdown</a>
               <a href="">Contact</a>
             </nav>
@@ -90,7 +90,7 @@
 
     <div class="container-fluid">
       <!-- ANCHOR about -->
-      <section class="row">
+      <section id="about" class="row">
         <div class="col-12">
           <div class="text-center">
             <h2>About us</h2>
@@ -207,8 +207,8 @@
       </section>
     </div>
 
-    <div class="container-fluid bg-light mb-4">
-      <!-- ANCHOR services -->
+    <!-- ANCHOR services -->
+    <div id="services" class="container-fluid bg-light mb-4">
       <section class="row">
         <div class="col-12">
           <div class="text-center p-5">
@@ -290,7 +290,7 @@
       </section>
     </div>
     <!-- ANCHOR our team -->
-    <div id="team" class="container-fluid">
+    <div id="team" class="container-fluid mb-4">
       <section class="row">
         <div class="col-12">
           <div class="text-center">
@@ -303,7 +303,7 @@
         </div>
       </section>
       <section class="row px-5">
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="bg-light shadow p-3">
             <img class="img-fluid rounded"
               src="https://images.unsplash.com/photo-1580989188745-6a6bd5b06722?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -312,7 +312,7 @@
               <p class="fs-4 fw-bold mb-1">Big Jerms</p>
               <i>Web Developer</i>
             </div>
-            <div class="d-flex justify-content-between fs-2">
+            <div class="d-flex justify-content-between fs-2 text-secondary">
               <span class="mdi mdi-twitter"></span>
               <span class="mdi mdi-facebook"></span>
               <span class="mdi mdi-instagram"></span>
@@ -320,7 +320,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="bg-light shadow p-3">
             <img class="img-fluid rounded"
               src="https://images.unsplash.com/photo-1622201720706-210b5983af3a?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -329,7 +329,7 @@
               <p class="fs-4 fw-bold mb-1">Tyler Rice</p>
               <i>Web Developer / Race Car Driver</i>
             </div>
-            <div class="d-flex justify-content-between fs-2">
+            <div class="d-flex justify-content-between fs-2 text-secondary">
               <span class="mdi mdi-twitter"></span>
               <span class="mdi mdi-facebook"></span>
               <span class="mdi mdi-instagram"></span>
@@ -337,7 +337,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="bg-light shadow p-3">
             <img class="img-fluid rounded"
               src="https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=2218&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -346,7 +346,7 @@
               <p class="fs-4 fw-bold mb-1">Jake Overall</p>
               <i>CEO</i>
             </div>
-            <div class="d-flex justify-content-between fs-2">
+            <div class="d-flex justify-content-between fs-2 text-secondary">
               <span class="mdi mdi-twitter"></span>
               <span class="mdi mdi-facebook"></span>
               <span class="mdi mdi-instagram"></span>
@@ -354,7 +354,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="bg-light shadow p-3">
             <img class="img-fluid rounded"
               src="https://images.unsplash.com/photo-1648402279767-cf3e3721508e?q=80&w=2231&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -363,13 +363,167 @@
               <p class="fs-4 fw-bold mb-1">Mick Shannahan</p>
               <i>CFO</i>
             </div>
-            <div class="d-flex justify-content-between fs-2">
+            <div class="d-flex justify-content-between fs-2 text-secondary">
               <span class="mdi mdi-twitter"></span>
               <span class="mdi mdi-facebook"></span>
               <span class="mdi mdi-instagram"></span>
               <span class="mdi mdi-linkedin"></span>
             </div>
           </div>
+        </div>
+      </section>
+    </div>
+    <!-- ANCHOR blogs -->
+    <div id="blog" class="container-fluid bg-light mb-4">
+      <section class="row">
+        <div class="col-12 my-5">
+          <div class="text-center">
+            <h2>Recent Blog Posts</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat nesciunt dicta aperiam voluptatum
+              nobis aliquid ab cupiditate, reiciendis ea.</p>
+          </div>
+        </div>
+      </section>
+      <section class="row px-5">
+        <div class="col-md-4 mb-3">
+          <div class="rounded shadow">
+            <img
+              src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Man working at a desk" class="img-fluid rounded-top">
+            <div class="p-3">
+              <p class="text-secondary fs-4">Politics</p>
+              <h3>Lorem ipsum dolor sit.</h3>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  src="https://images.unsplash.com/photo-1611432579699-484f7990b127?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Smiling woman" class="portrait">
+                <div>
+                  <p><b>Maria Doe</b></p>
+                  <p>12/12/2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="rounded shadow">
+            <img
+              src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Man on a laptop at a desk" class="img-fluid rounded-top">
+            <div class="p-3">
+              <p class="text-secondary fs-4">Sorts</p>
+              <h3>Lorem ipsum dolor sit.</h3>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fGhlYWRzaG90fGVufDB8fDB8fHww"
+                  alt="Smiling woman" class="portrait">
+                <div>
+                  <p><b>Nancy Pants</b></p>
+                  <p>12/12/2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="rounded shadow">
+            <img
+              src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="People having a metting at a desk" class="img-fluid rounded-top">
+            <div class="p-3">
+              <p class="text-secondary fs-4">Politics</p>
+              <h3>Lorem ipsum dolor sit.</h3>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGhlYWRzaG90fGVufDB8fDB8fHww"
+                  alt="Smiling woman" class="portrait">
+                <div>
+                  <p><b>Lucy Goose</b></p>
+                  <p>12/12/2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ANCHOR contact -->
+    <div id="contact" class="container-fluid">
+      <section class="row">
+        <div class="col-12 my-5">
+          <div class="text-center">
+            <h2>Contact</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ex nulla laboriosam reiciendis fugiat?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="row px-5">
+        <div class="col-lg-4 mb-3 bg-success-but-a-little-darker rounded-start">
+          <div class="text-light p-3">
+            <div class="bg-success p-3 mb-3 rounded d-flex align-items-center gap-3">
+              <i class="mdi mdi-map-marker display-3"></i>
+              <div>
+                <p class="fs-4 mb-1"><b>Location:</b></p>
+                <p class="mb-1">A108 Adam Street, New York, NY 535022d</p>
+              </div>
+            </div>
+            <div class="bg-success p-3 mb-3 rounded d-flex align-items-center gap-3">
+              <i class="mdi mdi-email display-3"></i>
+              <div>
+                <p class="fs-4 mb-1"><b>Email:</b></p>
+                <p class="mb-1">someone@some.one</p>
+              </div>
+            </div>
+            <div class="bg-success p-3 mb-3 rounded d-flex align-items-center gap-3">
+              <i class="mdi mdi-cellphone display-3"></i>
+              <div>
+                <p class="fs-4 mb-1"><b>Phone:</b></p>
+                <p class="mb-1">(555) 555 - 5555</p>
+              </div>
+            </div>
+            <div class="bg-success p-3 rounded d-flex align-items-center gap-3">
+              <i class="mdi mdi-clock display-3"></i>
+              <div>
+                <p class="fs-4 mb-1"><b>Hours:</b></p>
+                <p class="mb-1">Mon-Sat: 11AM - 23PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 mb-3 bg-light rounded-end">
+          <form class="row p-3">
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                <label for="name">Your Name</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Your Email</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                <label for="subject">Subject</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Message" id="message"></textarea>
+                <label for="message">Message</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="text-center">
+                <button class="btn btn-success rounded-pill">Send Message</button>
+              </div>
+            </div>
+          </form>
         </div>
       </section>
     </div>
